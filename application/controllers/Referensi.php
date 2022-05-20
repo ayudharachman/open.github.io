@@ -58,6 +58,7 @@ class Referensi extends REST_Controller {
 				'doa'		=> $arrJson['doa'],
 				'artinya'	=> $arrJson['artinya']
 			);
+			print_r($data);
 		}
         curl_close($curl);
     }
