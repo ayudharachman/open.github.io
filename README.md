@@ -1,2 +1,0 @@
-# open.github.io
-referensi
