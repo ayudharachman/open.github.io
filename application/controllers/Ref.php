@@ -45,7 +45,7 @@ class Ref extends CI_Controller {
 				'ayat'	=> $arr['ayat'],
 				'latin'	=> $arr['latin']
 			);
-			return $data;
+			print_r($data);
 		}
 		curl_close($curl);
 	}
